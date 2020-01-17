@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>FORMULARIOS (INPUTS)</h1>
+        <form method="POST">
+            <!-- Aqui va el type -->
+            <label for="n">Nombre:<input id="n" type="text" placeholder="Escribe tu nombre" required minlength="4"
+                    maxlength="10">
+                <br>
+                <label for="ap">Apellido:<input id="ap" type="text" placeholder="Escribe tu apellido" required
+                        minlength="4" maxlength="10">
+                    <br>
+                    <label for="em">Email:<input id="em" type="email" placeholder="Escribe tu email" required
+                            minlength="10" maxlength="20">
+                        <br>
+                        <label for="pw">Contraseña:<input id="pw" type="password" placeholder="Escribe tu contraseña"
+                                required minlength="10" maxlength="20">
+                            <br>
+                            <label for="tl">Telefono:<input id="tl" type="number" placeholder="Escribe tu telefono"
+                                    required min="0" max="9999999999">
+
+                                <br>
+                                <h2>Seleciona una opción</h2>
+                                <input  id="h" type="radio" name="sexo" checked> <label for="h">Masculino
+                                    <input id="m" type="radio" name="sexo"> <label for="m">Femenino
+
+                                        <br>
+
+                                        <input id="1" type="checkbox" value="opcion1"><label for="1">Opcion1</label>
+                                        <br>
+                                        <input id="2" type="checkbox" value="opcion2"><label for="2">Opcion2</label>
+                                        <br>
+                                        <input id="3" type="checkbox" value="opcion3"><label for="3">Opcion3</label>
+                                        <br>
+                                        <input id="4" type="checkbox" value="opcion4"><label for="4">Opcion4</label>
+                                        <br>
+                                        <label for="date">Selecciona una fecha</label>
+                                        <br>
+                                        <input type="date" min="2020-01-17" max="2020-02-04" value="2020-01-12">
+                                        <br>
+                                        <label for="mes">Seleciona un mes</label>
+                                        <br>
+                                        <input type="month" min="2020-01" max="2020-03">
+                                        <br>
+                                        <input type="color">
+                                        <br>
+                                        <label for="">Rango:</label><input type="range">
+                                        <br>
+                                        <label for="">Seleciona una opcion</label> <select  name="" id="">
+                                            <option select value="" disabled>--Selecciona--</option>
+                                                    <option value="ch">Chica</option>
+                                                    <option value="m">Mediana</option>
+                                                    <option value="g">Grande</option>
+                                                    <option value="eg">Extra Grande</option>
+
+                                        </select>
+                                        <br><br><br>
+                                        <br><br>
+                                        <input hidden type="submit" value="Probar formulario">
+
+
+        </form>
+    </center>
+</body>
+
+</html>
